@@ -3,90 +3,116 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio</title>
 
-    <style>
-      body {
-        margin: 0;
-        font-family: Arial, sans-serif;
-        background-color: #fff0f5;
-        color: #333;
-      }
+    <title>Abigiya | Software engineering student Portfolio</title>
 
-      header {
-        background-color: #f4a6c1;
-        padding: 20px;
-        text-align: center;
-      }
-
-      nav a {
-        margin: 10px;
-        color: #333;
-        text-decoration: none;
-      }
-
-      section {
-        padding: 40px 20px;
-        text-align: center;
-      }
-
-      .card {
-        background-color: white;
-        padding: 25px;
-        margin: 20px auto;
-        max-width: 600px;
-        border-radius: 15px;
-      }
-
-      footer {
-        background-color: #f4a6c1;
-        padding: 15px;
-        text-align: center;
-      }
-      <link rel="stylesheet" href="style.css">
-    </style>
+    <!-- Connect the external CSS file -->
+    <link rel="stylesheet" href="style.css" />
   </head>
 
   <body>
+    <!-- Header and Navigation -->
     <header>
-      <h1>My Portfolio</h1>
-      <p>Software Engineering Student | Future Cybersecurity Professional</p>
+      <nav class="navbar">
+        <a href="#" class="logo">&lt;Abigiya /&gt;</a>
 
-      <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
 
-    <section id="about">
+    <!-- Hero Section -->
+    <section class="hero">
+      <p class="terminal-text">root@portfolio:~$ whoami</p>
+
+      <h1>Hi, I'm <span>Abigiya</span></h1>
+
+      <h2>Software Engineering Student</h2>
+
+      <p class="hero-description">
+        Aspiring Cybersecurity Professional | Web Developer | Lifelong Learner
+      </p>
+
+      <a href="#projects" class="btn">Explore My Work</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <h2 class="section-title">About <span>Me</span></h2>
+
       <div class="card">
-        <h2>About Me</h2>
         <p>
-          Hello! I am a software engineering student learning web development,
-          programming, and cybersecurity.
+          Hello! I'm a software engineering student passionate about
+          programming, web development, networking, and cybersecurity.
         </p>
       </div>
     </section>
 
-    <section id="projects">
-      <div class="card">
-        <h2>My Projects</h2>
-        <p>My portfolio website is my first project.</p>
-        <p>More projects coming soon!</p>
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+      <h2 class="section-title">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skill-card">
+          <h3>HTML</h3>
+          <p>Building website structures</p>
+        </div>
+
+        <div class="skill-card">
+          <h3>Cybersecurity</h3>
+          <p>Developing security knowledge</p>
+        </div>
       </div>
     </section>
 
-    <section id="contact">
-      <div class="card">
-        <h2>Contact Me</h2>
-        <p>Email: abigiyaell23@</p>
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+      <h2 class="section-title">My <span>Projects</span></h2>
+
+      <div class="projects-container">
+        <div class="project-card">
+          <p class="project-number">PROJECT_01</p>
+          <h3>Personal Portfolio</h3>
+          <p>
+            A personal website created using HTML and CSS to showcase my skills,
+            interests, and progress.
+          </p>
+          <span class="tag">HTML</span>
+          <span class="tag">CSS</span>
+        </div>
+
+        <div class="project-card">
+          <p class="project-number">PROJECT_02</p>
+          <h3>Coming Soon...</h3>
+          <p>I'm working toward building more projects and learning</p>
+          <span class="tag">Learning</span>
+          <span class="tag">Development</span>
+        </div>
       </div>
     </section>
 
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <h2 class="section-title">Get In <span>Touch</span></h2>
+
+      <div class="card">
+        <p>
+          Interested in collaborating or discussing technology? Feel free to
+          contact me.
+        </p>
+
+        <a href="mailto:abigiyaell23@gmail.com" class="btn"> Contact Me </a>
+      </div>
+    </section>
+
+    <!-- Footer -->
     <footer>
-      <p>&copy; 2026 My Portfolio. All rights reserved.</p>
+      <p>&copy; 2026 Abigiya | Built with HTML and CSS</p>
+      <p class="footer-text">Keep learning. Keep building. Stay secure.</p>
     </footer>
   </body>
 </html>
