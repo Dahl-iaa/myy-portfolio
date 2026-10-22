@@ -66,7 +66,11 @@ header {
 .nav-links a:hover {
     color: var(--accent);
 }
-
+.nav-links a:focus-visible,
+.btn:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 5px;
+}
 /* ===== HERO SECTION ===== */
 
 .hero {
