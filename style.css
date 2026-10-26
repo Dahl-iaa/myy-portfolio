@@ -90,8 +90,6 @@ header {
 }
 
 .terminal-text {
-    color: var(--accent);
-    font-family: monospace;
     margin-bottom: 18px;
     letter-spacing: 1px;
 }
@@ -362,5 +360,12 @@ footer {
 #about a:hover {
   color: #ffffff;
 }
-
+body.light-theme {
+  --background: #f5f7fa;
+  --surface: #ffffff;
+  --accent: #008f5a;
+  --text: #17212b;
+  --muted: #5b6875;
+  --border: #d5dde5;
+}
 
